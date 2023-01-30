@@ -6,7 +6,7 @@
         <import addon="script.module.web-pdb" version="1.5.6"/>
         <import addon="script.module.requests" version="2.25.1"/>
         <import addon="script.module.pyaes" version="1.6.1"/>
-        <import addon="script.module.guessit" version="3.5"/>
+        <import addon="script.module.guessit" version="3.5.0"/>
     </requires>
     <extension point="xbmc.subtitle.module" library="service.py"/>
     <extension point="xbmc.addon.metadata">

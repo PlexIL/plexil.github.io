@@ -9,6 +9,7 @@
     <import addon="script.module.babelfish" version="0.6.0"/>
     <import addon="script.module.dateutil" version="2.8.2"/>
     <import addon="script.module.six"/>
+	<import addon="script.module.importlib-resources" version="5.10.2"/>
   </requires>
   <extension point="xbmc.python.module"
              library="lib" />
