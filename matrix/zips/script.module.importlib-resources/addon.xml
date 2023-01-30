@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.importlib-resources"
+       name="importlib-resources"
+       version="5.10.2"
+       provider-name="Rémi Alvergnat">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.zipp" version="3.12.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>importlib-resources</summary>
+    <description>importlib-resources Packed for Kodi</description>
+    <platform>all</platform>
+    <language></language>
+    <license>MIT License</license>
+    <forum></forum>
+    <website>https://github.com/Toilal/rebulk</website>
+    <source>https://github.com/ramiro/script.module.rebulk</source>
+    <email></email>
+  </extension>
+</addon>

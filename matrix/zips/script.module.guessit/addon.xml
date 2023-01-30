@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.guessit"
+       name="guessit"
+       version="3.5.0"
+       provider-name="Rémi Alvergnat">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.rebulk" version="3.1.0"/>
+    <import addon="script.module.babelfish" version="0.6.0"/>
+    <import addon="script.module.dateutil" version="2.8.2"/>
+    <import addon="script.module.six"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>guessit - Python library python library that extracts as much information as possible from a video filename</summary>
+    <description>Packed for Kodi from https://github.com/guessit-io/guessit</description>
+    <platform>all</platform>
+    <language></language>
+    <license>LGPL v3</license>
+    <forum></forum>
+    <website>https://guessit.io</website>
+    <source>https://github.com/ramiro/script.module.guessit</source>
+    <email></email>
+  </extension>
+</addon>

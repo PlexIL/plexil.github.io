@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addons><addon id="script.module.babelfish" name="babelfish" version="0.6.0" provider-name="Antoine Bertin">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+    <import addon="script.module.setuptools" version="67.0.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>babelfish - Python library to work with countries and languages</summary>
+    <description>Packed for Kodi from https://github.com/Diaoul/babelfish</description>
+    <platform>all</platform>
+    <language />
+    <license>Revised BSD License</license>
+    <forum />
+    <website>http://babelfish.readthedocs.io/en/latest/</website>
+    <source>https://github.com/ramiro/script.module.babelfish</source>
+    <email />
+  </extension>
+</addon><addon id="script.module.guessit" name="guessit" version="3.5.0" provider-name="Rémi Alvergnat">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+    <import addon="script.module.rebulk" version="3.1.0" />
+    <import addon="script.module.babelfish" version="0.6.0" />
+    <import addon="script.module.dateutil" version="2.8.2" />
+    <import addon="script.module.six" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>guessit - Python library python library that extracts as much information as possible from a video filename</summary>
+    <description>Packed for Kodi from https://github.com/guessit-io/guessit</description>
+    <platform>all</platform>
+    <language />
+    <license>LGPL v3</license>
+    <forum />
+    <website>https://guessit.io</website>
+    <source>https://github.com/ramiro/script.module.guessit</source>
+    <email />
+  </extension>
+</addon><addon id="script.module.importlib-resources" name="importlib-resources" version="5.10.2" provider-name="Rémi Alvergnat">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+    <import addon="script.module.zipp" version="3.12.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>importlib-resources</summary>
+    <description>importlib-resources Packed for Kodi</description>
+    <platform>all</platform>
+    <language />
+    <license>MIT License</license>
+    <forum />
+    <website>https://github.com/Toilal/rebulk</website>
+    <source>https://github.com/ramiro/script.module.rebulk</source>
+    <email />
+  </extension>
+</addon><addon id="script.module.rebulk" name="rebulk" version="3.1.0" provider-name="Rémi Alvergnat">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>rebulk - Python library that allows you to define simple search patterns in bulk to perform advanced matching on any string</summary>
+    <description>Packed for Kodi from https://github.com/Toilal/rebulk</description>
+    <platform>all</platform>
+    <language />
+    <license>MIT License</license>
+    <forum />
+    <website>https://github.com/Toilal/rebulk</website>
+    <source>https://github.com/ramiro/script.module.rebulk</source>
+    <email />
+  </extension>
+</addon><addon id="script.module.setuptools" name="setuptools" version="67.0.0" provider-name="Rémi Alvergnat">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>importlib-resources</summary>
+    <description>importlib-resources Packed for Kodi</description>
+    <platform>all</platform>
+    <language />
+    <license>MIT License</license>
+    <forum />
+    <website>https://github.com/Toilal/rebulk</website>
+    <source>https://github.com/ramiro/script.module.rebulk</source>
+    <email />
+  </extension>
+</addon><addon id="script.module.zipp" name="zipp" version="3.12.0" provider-name="Rémi Alvergnat">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>zipp</summary>
+    <description>zipp Packed for Kodi</description>
+    <platform>all</platform>
+    <language />
+    <license>MIT License</license>
+    <forum />
+    <website>https://github.com/Toilal/rebulk</website>
+    <source>https://github.com/ramiro/script.module.rebulk</source>
+    <email />
+  </extension>
+</addon><addon id="service.subtitles.ktuvit" name="Ktuvit.me" version="1.0.0" provider-name="PlexIL">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.beautifulsoup4" version="4.6.2" />
+        <import addon="script.module.web-pdb" version="1.5.6" />
+        <import addon="script.module.requests" version="2.25.1" />
+        <import addon="script.module.pyaes" version="1.6.1" />
+        <import addon="script.module.guessit" version="3.5" />
+    </requires>
+    <extension point="xbmc.subtitle.module" library="service.py" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Ktuvit.me</summary>
+        <description lang="en_GB">Search and Download hebrew subtitles from Ktuvit.me</description>
+        <source>https://github.com/PlexIL/service.subtitles.ktuvit</source>
+        <forum />
+        <license>GPL-2.0-only</license>
+        <assets>
+            <icon>icon.png</icon>
+            <clearlogo>logo.png</clearlogo>
+        </assets>
+    </extension>
+</addon></addons>
