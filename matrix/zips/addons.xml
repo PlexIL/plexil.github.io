@@ -2,7 +2,6 @@
 <addons><addon id="script.module.babelfish" name="babelfish" version="0.6.0" provider-name="Antoine Bertin">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
-    <import addon="script.module.setuptools" version="67.0.0" />
   </requires>
   <extension point="xbmc.python.module" library="lib" />
   <extension point="xbmc.addon.metadata">
