@@ -84,7 +84,7 @@
     <source>https://github.com/ramiro/script.module.rebulk</source>
     <email />
   </extension>
-</addon><addon id="service.autosubs" name="AutoSubs" version="1.1.2" provider-name="amet,schumi2004,juokelis,PlexIL">
+</addon><addon id="service.autosubs" name="AutoSubs" version="1.1.3" provider-name="amet,schumi2004,juokelis,PlexIL">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
   </requires>
@@ -93,6 +93,9 @@
     <summary lang="en_GB">Auto Search for Subtitles on Play</summary>
     <description lang="en_GB">Auto Search for Subtitles on Playback start if no subs are found.[CR][CR]Icon credits goes to zNET Computer Solutions http://www.znetcs.pl</description>
     <news>
+v1.1.3 (2023-02-02) by PlexIL
+- Fixed: AutoSubs didn't start subtitle search on some devices
+
 v1.1.2 (2023-02-02) by PlexIL
 - Fixed: AutoSubs Service was broken due to a function deprecated in new xbmc API
 
