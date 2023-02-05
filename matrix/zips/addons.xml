@@ -84,7 +84,7 @@
     <source>https://github.com/ramiro/script.module.rebulk</source>
     <email />
   </extension>
-</addon><addon id="service.auto-ktuvit" name="AutoKtuvit" version="1.0.3" provider-name="PlexIL">
+</addon><addon id="service.auto-ktuvit" name="AutoKtuvit" version="1.0.4" provider-name="PlexIL">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
 	<import addon="service.subtitles.ktuvit" version="1.0.3" />
@@ -102,6 +102,7 @@
     <news>
       Auto search and download from Ktuvit.me.
 	  It uses the settings of Ktuvit.me so make sure credentials are set!
+		v1.0.4 - Fixed Movie\TV Show detection
 		v1.0.3 - Fixed settings.xml
 		v1.0.2 - Better search, Added Auto-stop
     </news>
@@ -155,7 +156,7 @@ v1.0.0 - schumi2004,CaTz, Mafarricos
       <fanart>resources/media/srt_fanart.jpg</fanart>
     </assets>
   </extension>
-</addon><addon id="service.subtitles.ktuvit" name="Ktuvit.me" version="1.0.4" provider-name="PlexIL">
+</addon><addon id="service.subtitles.ktuvit" name="Ktuvit.me" version="1.0.5" provider-name="PlexIL">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.beautifulsoup4" version="4.6.2" />
@@ -170,6 +171,7 @@ v1.0.0 - schumi2004,CaTz, Mafarricos
         <summary lang="en_GB">Ktuvit.me</summary>
         <description lang="en_GB">Search and Download hebrew subtitles from Ktuvit.me</description>
 		<news>
+			v1.0.5 - Fixed Movie\TV Show detection
 			v1.0.4 - Better searching
 			v1.0.3 - Fixed subtitle encoding errors, also added some code refactoring
 			v1.0.2 - Fixed 'Force RTL Subtitle' issue with HTML tags in the start. Also added some refactoring
