@@ -84,7 +84,7 @@
     <source>https://github.com/ramiro/script.module.rebulk</source>
     <email />
   </extension>
-</addon><addon id="service.auto-ktuvit" name="AutoKtuvit" version="1.0.5" provider-name="PlexIL">
+</addon><addon id="service.auto-ktuvit" name="AutoKtuvit" version="1.0.6" provider-name="PlexIL">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
 	<import addon="service.subtitles.ktuvit" version="1.0.5" />
@@ -102,6 +102,7 @@
     <news>
       Auto search and download from Ktuvit.me.
 	  It uses the settings of Ktuvit.me so make sure credentials are set!
+		v1.0.6 - Fixed Auto Pause
 		v1.0.5 - Fixed dependency
 		v1.0.4 - Fixed Movie\TV Show detection
 		v1.0.3 - Fixed settings.xml
