@@ -52,6 +52,27 @@
     <source>https://github.com/ramiro/script.module.rebulk</source>
     <email />
   </extension>
+</addon><addon id="script.module.ktuvit-utils" name="ktuvit-utils" version="1.0.0" provider-name="PlexIL">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+    <import addon="script.module.beautifulsoup4" version="4.6.2" />
+    <import addon="script.module.requests" version="2.25.1" />
+    <import addon="script.module.pyaes" version="1.6.1" />
+    <import addon="script.module.guessit" version="3.5.0" />
+    <import addon="script.module.chardet" version="4.0.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Ktuvit Utils - Utility for downloading from Ktuvit.me</summary>
+    <description>Utility for downloading from Ktuvit.me</description>
+    <platform>all</platform>
+    <language />
+    <license>LGPL v3</license>
+    <forum />
+    <website />
+    <source>https://github.com/PlexIL/plexil.github.io</source>
+    <email />
+  </extension>
 </addon><addon id="script.module.rebulk" name="rebulk" version="3.1.0" provider-name="Rémi Alvergnat">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
@@ -84,15 +105,11 @@
     <source>https://github.com/ramiro/script.module.rebulk</source>
     <email />
   </extension>
-</addon><addon id="service.auto-ktuvit" name="AutoKtuvit" version="1.0.9" provider-name="PlexIL">
+</addon><addon id="service.auto-ktuvit" name="AutoKtuvit" version="1.0.10" provider-name="PlexIL">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
+    <import addon="script.module.ktuvit-utils" version="1.0.0" />
 	<import addon="service.subtitles.ktuvit" version="1.0.5" />
-    <import addon="script.module.beautifulsoup4" version="4.6.2" />
-    <import addon="script.module.requests" version="2.25.1" />
-    <import addon="script.module.pyaes" version="1.6.1" />
-    <import addon="script.module.guessit" version="3.5.0" />
-    <import addon="script.module.chardet" version="4.0.0" />
 	<import addon="script.module.web-pdb" version="1.5.6" />
   </requires>
   <extension point="xbmc.service" library="default.py" />
@@ -102,6 +119,7 @@
     <news>
       Auto search and download from Ktuvit.me.
 	  It uses the settings of Ktuvit.me so make sure credentials are set!
+        v1.0.10 - Seperated main login to ktuvit-utils
         v1.0.9 - Added elemntum proxy to exclusions
 		v1.0.8 - Added exclusions for IPTV, Added ".he" to the subtitle filename
         v1.0.7 - Fixed search
@@ -161,21 +179,18 @@ v1.0.0 - schumi2004,CaTz, Mafarricos
       <fanart>resources/media/srt_fanart.jpg</fanart>
     </assets>
   </extension>
-</addon><addon id="service.subtitles.ktuvit" name="Ktuvit.me" version="1.0.7" provider-name="PlexIL">
+</addon><addon id="service.subtitles.ktuvit" name="Ktuvit.me" version="1.0.8" provider-name="PlexIL">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
-        <import addon="script.module.beautifulsoup4" version="4.6.2" />
+        <import addon="script.module.ktuvit-utils" version="1.0.0" />
         <import addon="script.module.web-pdb" version="1.5.6" />
-        <import addon="script.module.requests" version="2.25.1" />
-        <import addon="script.module.pyaes" version="1.6.1" />
-        <import addon="script.module.guessit" version="3.5.0" />
-        <import addon="script.module.chardet" version="4.0.0" />
     </requires>
     <extension point="xbmc.subtitle.module" library="service.py" />
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Ktuvit.me</summary>
         <description lang="en_GB">Search and Download hebrew subtitles from Ktuvit.me</description>
 		<news>
+			v1.0.8 - Seperate main logic to ktuvit-utils
 			v1.0.7 - Added ".he" to the subtitle filename
             v1.0.6 - Fixed search
 			v1.0.5 - Fixed Movie\TV Show detection
