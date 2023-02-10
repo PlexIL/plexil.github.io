@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="script.module.ktuvit-utils"
        name="ktuvit-utils"
-       version="1.0.1"
+       version="1.0.2"
        provider-name="PlexIL">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
@@ -18,6 +18,7 @@
     <description>Utility for downloading from Ktuvit.me</description>
     <platform>all</platform>
 	<news>
+        v1.0.2 - Filename based search with guessit as fallback. Remove unecessary escaping characters from subtitles
 		v1.0.1 - Fixed RTL subtitles by forcing Left-Right-Mark at the start of every line
 		v1.0.0 - Initial version
 	</news>
