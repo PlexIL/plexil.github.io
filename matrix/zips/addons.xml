@@ -129,11 +129,11 @@
     <source>https://github.com/ramiro/script.module.rebulk</source>
     <email />
   </extension>
-</addon><addon id="service.auto-ktuvit" name="AutoKtuvit" version="1.0.11" provider-name="PlexIL">
+</addon><addon id="service.auto-ktuvit" name="AutoKtuvit" version="1.0.12" provider-name="PlexIL">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
-    <import addon="script.module.ktuvit-utils" version="1.0.2" />
-	<import addon="service.subtitles.ktuvit" version="1.0.8" />
+    <import addon="script.module.ktuvit-utils" version="1.0.3" />
+	<import addon="service.subtitles.ktuvit" version="1.0.10" />
 	<import addon="script.module.web-pdb" version="1.5.6" />
   </requires>
   <extension point="xbmc.service" library="default.py" />
@@ -143,6 +143,7 @@
     <news>
       Auto search and download from Ktuvit.me.
 	  It uses the settings of Ktuvit.me so make sure credentials are set!
+		v1.0.12 - Fixed dependencies
 		v1.0.11 - Fixed dependencies
         v1.0.10 - Seperated main login to ktuvit-utils
         v1.0.9 - Added elemntum proxy to exclusions
@@ -204,10 +205,10 @@ v1.0.0 - schumi2004,CaTz, Mafarricos
       <fanart>resources/media/srt_fanart.jpg</fanart>
     </assets>
   </extension>
-</addon><addon id="service.subtitles.ktuvit" name="Ktuvit.me" version="1.0.9" provider-name="PlexIL">
+</addon><addon id="service.subtitles.ktuvit" name="Ktuvit.me" version="1.0.10" provider-name="PlexIL">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
-        <import addon="script.module.ktuvit-utils" version="1.0.2" />
+        <import addon="script.module.ktuvit-utils" version="1.0.3" />
         <import addon="script.module.web-pdb" version="1.5.6" />
     </requires>
     <extension point="xbmc.subtitle.module" library="service.py" />
@@ -215,6 +216,7 @@ v1.0.0 - schumi2004,CaTz, Mafarricos
         <summary lang="en_GB">Ktuvit.me</summary>
         <description lang="en_GB">Search and Download hebrew subtitles from Ktuvit.me</description>
 		<news>
+			v1.0.10 - Fixed dependencies
 			v1.0.9 - Fixed dependencies
 			v1.0.8 - Seperate main logic to ktuvit-utils
 			v1.0.7 - Added ".he" to the subtitle filename
