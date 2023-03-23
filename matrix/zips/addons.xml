@@ -70,7 +70,7 @@
     <source>https://github.com/ramiro/script.module.rebulk</source>
     <email />
   </extension>
-</addon><addon id="script.module.ktuvit-utils" name="ktuvit-utils" version="1.0.6" provider-name="PlexIL">
+</addon><addon id="script.module.ktuvit-utils" name="ktuvit-utils" version="1.0.7" provider-name="PlexIL">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.beautifulsoup4" version="4.6.2" />
@@ -85,6 +85,7 @@
     <description>Utility for downloading from Ktuvit.me</description>
     <platform>all</platform>
 	<news>
+        v1.0.7 - bug fixes
         v1.0.6 - Changed temp folder for compatability
         v1.0.5 - Added zip parsing
         v1.0.4 - Added forced subtitles
