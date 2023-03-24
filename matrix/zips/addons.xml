@@ -70,7 +70,7 @@
     <source>https://github.com/ramiro/script.module.rebulk</source>
     <email />
   </extension>
-</addon><addon id="script.module.ktuvit-utils" name="ktuvit-utils" version="1.0.9" provider-name="PlexIL">
+</addon><addon id="script.module.ktuvit-utils" name="ktuvit-utils" version="1.0.10" provider-name="PlexIL">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.beautifulsoup4" version="4.6.2" />
@@ -85,6 +85,7 @@
     <description>Utility for downloading from Ktuvit.me</description>
     <platform>all</platform>
 	<news>
+        v1.0.10 - bug fixes
         v1.0.9 - Fixed rating calculations
         v1.0.8 - bug fixes
         v1.0.7 - bug fixes
