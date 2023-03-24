@@ -136,7 +136,7 @@
     <source>https://github.com/ramiro/script.module.rebulk</source>
     <email />
   </extension>
-</addon><addon id="service.auto-ktuvit" name="AutoKtuvit" version="1.0.16" provider-name="PlexIL">
+</addon><addon id="service.auto-ktuvit" name="AutoKtuvit" version="1.0.17" provider-name="PlexIL">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.ktuvit-utils" version="1.0.3" />
@@ -150,6 +150,8 @@
     <news>
       Auto search and download from Ktuvit.me.
 	  It uses the settings of Ktuvit.me so make sure credentials are set!
+        v1.0.17 - fixed ratings
+        v1.0.16 - bug fixes
         v1.0.15 - settings max retries
         v1.0.15 - Fixed pause and settings disaply bug
         v1.0.14 - Fixed bug
