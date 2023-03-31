@@ -220,7 +220,7 @@ v1.0.0 - schumi2004,CaTz, Mafarricos
       <fanart>resources/media/srt_fanart.jpg</fanart>
     </assets>
   </extension>
-</addon><addon id="service.ktuvit-library" name="KtuvitLibrary" version="1.0.6" provider-name="PlexIL">
+</addon><addon id="service.ktuvit-library" name="KtuvitLibrary" version="1.0.7" provider-name="PlexIL">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="service.librarywatchdog" version="1.1.2" />
@@ -234,6 +234,7 @@ v1.0.0 - schumi2004,CaTz, Mafarricos
     <description lang="en_GB">Sync the latest subtitles added in Ktuvit</description>
     <news>
       Ktuvit Library syncs the latest movies
+		v1.0.7 - Bug fix counting elements
 		v1.0.6 - Removed "overwrite added" settings, Reducing amount of TMDB queries, Don't scan if already in progress
 		v1.0.5 - Stop searching if X items found in library,
 				 better filtering, added settings to never clean elements
