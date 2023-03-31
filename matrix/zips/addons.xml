@@ -255,7 +255,7 @@ v1.0.0 - schumi2004,CaTz, Mafarricos
       <fanart>resources/media/srt_fanart.jpg</fanart>
     </assets>
   </extension>
-</addon><addon id="service.subtitles.ktuvit" name="Ktuvit.me" version="1.0.11" provider-name="PlexIL">
+</addon><addon id="service.subtitles.ktuvit" name="Ktuvit.me" version="1.0.12" provider-name="PlexIL">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.ktuvit-utils" version="1.0.3" />
@@ -266,6 +266,7 @@ v1.0.0 - schumi2004,CaTz, Mafarricos
         <summary lang="en_GB">Ktuvit.me</summary>
         <description lang="en_GB">Search and Download hebrew subtitles from Ktuvit.me</description>
 		<news>
+			v1.0.12 - Bug fix grabing Title
 			v1.0.11 - Grab Title instead of Foreign title
 			v1.0.10 - Fixed dependencies
 			v1.0.9 - Fixed dependencies
