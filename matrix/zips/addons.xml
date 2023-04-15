@@ -220,7 +220,7 @@ v1.0.0 - schumi2004,CaTz, Mafarricos
       <fanart>resources/media/srt_fanart.jpg</fanart>
     </assets>
   </extension>
-</addon><addon id="service.ktuvit-library" name="KtuvitLibrary" version="1.0.10" provider-name="PlexIL">
+</addon><addon id="service.ktuvit-library" name="KtuvitLibrary" version="1.0.11" provider-name="PlexIL">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="service.librarywatchdog" version="1.1.2" />
@@ -234,6 +234,7 @@ v1.0.0 - schumi2004,CaTz, Mafarricos
     <description lang="en_GB">Sync the latest subtitles added in Ktuvit</description>
     <news>
       Ktuvit Library syncs the latest movies
+		v1.0.11 - Better code readability. Using Kodi's callback to determine is libaray scanning in progress
 		v1.0.10 - small bug fix
 		v1.0.9 - Added Jaccard similarity for better results
 		v1.0.8 - Added notifications, better search with scoring.
